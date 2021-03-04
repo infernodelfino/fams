@@ -1,0 +1,12 @@
+#side-bar {
+    height: 89vh;
+}
+#traineeTable_length {
+    padding-top: 10px;
+}
+#traineeTable_paginate {
+    padding: 0 50%;
+}
+.btn-customized {
+    border: 1px solid black;
+}

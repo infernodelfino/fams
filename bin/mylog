@@ -1,0 +1,181 @@
+2020-03-26 00:28:13.627  INFO 7580 --- [RMI TCP Connection(88)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-03-26 00:28:13.627  INFO 7580 --- [RMI TCP Connection(89)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-03-26 00:28:13.627  INFO 7580 --- [RMI TCP Connection(86)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-03-26 00:28:13.627  INFO 7580 --- [RMI TCP Connection(87)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-03-26 00:28:19.545  INFO 7580 --- [RMI TCP Connection(88)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-26 00:28:20.556  INFO 7580 --- [RMI TCP Connection(88)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-26 00:28:20.658  INFO 7580 --- [RMI TCP Connection(88)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-03-26 08:54:34.044  INFO 10916 --- [main] fa.training.Java1908FamsG3Application    : Starting Java1908FamsG3Application on LAPTOP-GC2CG03A with PID 10916 (started by Minh Tuan in D:\Java Fresher\Mock Project\Mock\HN19_FR_JAVA_08_G3\Source\java1908_fams_g3)
+2020-03-26 08:54:34.072  INFO 10916 --- [main] fa.training.Java1908FamsG3Application    : No active profile set, falling back to default profiles: default
+2020-03-26 08:54:35.011  INFO 10916 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-26 08:54:35.086  INFO 10916 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68ms. Found 11 JPA repository interfaces.
+2020-03-26 08:54:35.480  INFO 10916 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-26 08:54:35.486  INFO 10916 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-26 08:54:35.486  INFO 10916 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 08:54:35.767  INFO 10916 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 08:54:35.771  INFO 10916 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-26 08:54:36.192  INFO 10916 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-26 08:54:36.237  INFO 10916 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-26 08:54:36.374  INFO 10916 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-26 08:54:36.613  INFO 10916 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-26 08:54:37.299  INFO 10916 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-26 08:54:37.314  INFO 10916 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-03-26 08:54:38.561  INFO 10916 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: fa.training.entity.Account (class must be instantiated by Interceptor)
+2020-03-26 08:54:38.585  INFO 10916 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: fa.training.entity.Role (class must be instantiated by Interceptor)
+2020-03-26 08:54:45.868  INFO 10916 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-26 08:54:45.918  INFO 10916 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-26 08:54:46.039  WARN 10916 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-26 08:54:47.922  INFO 10916 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: c23859c0-7356-4ba7-965c-8ec8d4baeb9c
+
+2020-03-26 08:54:48.082  INFO 10916 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@c82d925, org.springframework.security.web.context.SecurityContextPersistenceFilter@42f9873e, org.springframework.security.web.header.HeaderWriterFilter@1073c664, org.springframework.security.web.authentication.logout.LogoutFilter@5be7b749, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@24fc2c80, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@b86cb18, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@55c03e4, org.springframework.security.web.session.SessionManagementFilter@7fe87c0e, org.springframework.security.web.access.ExceptionTranslationFilter@51a719e7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@727453a3]
+2020-03-26 08:54:48.515  INFO 10916 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-26 08:54:48.532  INFO 10916 --- [main] fa.training.Java1908FamsG3Application    : Started Java1908FamsG3Application in 14.808 seconds (JVM running for 15.597)
+2020-03-26 08:56:19.573  INFO 10916 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 08:56:28.657  WARN 10916 --- [http-nio-8080-exec-7] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2020-03-26 08:57:00.366  INFO 10916 --- [http-nio-8080-exec-5] fa.training.utils.Log4J                  : null
+2020-03-26 08:57:00.940  INFO 10916 --- [http-nio-8080-exec-5] fa.training.utils.Log4J                  : null
+2020-03-26 08:57:08.685  INFO 10916 --- [http-nio-8080-exec-1] fa.training.utils.Log4J                  : 0
+2020-03-26 08:57:10.180  WARN 10916 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: ""]
+2020-03-26 08:57:21.531  INFO 10916 --- [http-nio-8080-exec-9] fa.training.utils.Log4J                  : 0
+2020-03-26 08:57:23.591  WARN 10916 --- [http-nio-8080-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /modal-attendace-status.html
+2020-03-26 08:57:35.052  INFO 10916 --- [http-nio-8080-exec-4] fa.training.utils.Log4J                  : 0.76
+2020-03-26 08:57:35.052  INFO 10916 --- [http-nio-8080-exec-4] fa.training.utils.Log4J                  : 0.77
+2020-03-26 08:57:35.052  INFO 10916 --- [http-nio-8080-exec-4] fa.training.utils.Log4J                  : 0.66
+2020-03-26 08:57:35.053  INFO 10916 --- [http-nio-8080-exec-4] fa.training.utils.Log4J                  : GPA [id=0, milestoneName=Thg02-2019, acacdemicMark=0.76, disciplinaryPoint=0.8, bonus=0.2, GPA=1.3599999999999999]
+2020-03-26 08:57:35.053  INFO 10916 --- [http-nio-8080-exec-4] fa.training.utils.Log4J                  : GPA [id=0, milestoneName=Thg05-2019, acacdemicMark=0.77, disciplinaryPoint=0.8, bonus=0.2, GPA=1.37]
+2020-03-26 08:57:35.053  INFO 10916 --- [http-nio-8080-exec-4] fa.training.utils.Log4J                  : GPA [id=0, milestoneName=Thg04-2019, acacdemicMark=0.66, disciplinaryPoint=0.8, bonus=0.2, GPA=1.26]
+2020-03-26 09:02:24.215  INFO 10916 --- [RMI TCP Connection(17)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-03-26 09:02:24.246  INFO 10916 --- [RMI TCP Connection(17)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-26 09:02:24.270  INFO 10916 --- [RMI TCP Connection(17)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-26 09:02:24.272  INFO 10916 --- [RMI TCP Connection(17)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-03-26 09:02:43.410  INFO 6208 --- [main] fa.training.Java1908FamsG3Application    : Starting Java1908FamsG3Application on LAPTOP-GC2CG03A with PID 6208 (started by Minh Tuan in D:\Java Fresher\Mock Project\Mock\HN19_FR_JAVA_08_G3\Source\java1908_fams_g3)
+2020-03-26 09:02:43.412  INFO 6208 --- [main] fa.training.Java1908FamsG3Application    : No active profile set, falling back to default profiles: default
+2020-03-26 09:02:43.907  INFO 6208 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-26 09:02:43.982  INFO 6208 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69ms. Found 11 JPA repository interfaces.
+2020-03-26 09:02:44.541  INFO 6208 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-26 09:02:44.548  INFO 6208 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-26 09:02:44.548  INFO 6208 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 09:02:44.940  INFO 6208 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 09:02:44.944  INFO 6208 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-26 09:02:45.097  INFO 6208 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-26 09:02:45.141  INFO 6208 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-26 09:02:45.270  INFO 6208 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-26 09:02:45.336  INFO 6208 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-26 09:02:45.696  INFO 6208 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-26 09:02:45.709  INFO 6208 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-03-26 09:02:47.751  INFO 6208 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: fa.training.entity.Account (class must be instantiated by Interceptor)
+2020-03-26 09:02:47.780  INFO 6208 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: fa.training.entity.Role (class must be instantiated by Interceptor)
+2020-03-26 09:02:51.886  INFO 6208 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-26 09:02:51.990  INFO 6208 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-26 09:02:52.021  WARN 6208 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-26 09:02:53.253  INFO 6208 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 3c1ec562-ea8a-4859-92b0-57c3f8271c9f
+
+2020-03-26 09:02:53.394  INFO 6208 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@123ca460, org.springframework.security.web.context.SecurityContextPersistenceFilter@7f2ca6f8, org.springframework.security.web.header.HeaderWriterFilter@28b5662d, org.springframework.security.web.authentication.logout.LogoutFilter@175ac243, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@13dc6649, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@10f20d38, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@11228bee, org.springframework.security.web.session.SessionManagementFilter@6141647f, org.springframework.security.web.access.ExceptionTranslationFilter@7717b4a0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5aa7cfdf]
+2020-03-26 09:02:53.940  INFO 6208 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-26 09:02:53.968  INFO 6208 --- [main] fa.training.Java1908FamsG3Application    : Started Java1908FamsG3Application in 10.836 seconds (JVM running for 11.529)
+2020-03-26 09:04:14.188  INFO 6208 --- [RMI TCP Connection(12)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-03-26 09:04:14.202  INFO 6208 --- [RMI TCP Connection(12)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-26 09:04:14.207  INFO 6208 --- [RMI TCP Connection(12)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-26 09:04:14.210  INFO 6208 --- [RMI TCP Connection(12)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-03-26 09:04:24.018  INFO 612 --- [main] fa.training.Java1908FamsG3Application    : Starting Java1908FamsG3Application on LAPTOP-GC2CG03A with PID 612 (started by Minh Tuan in D:\Java Fresher\Mock Project\Mock\HN19_FR_JAVA_08_G3\Source\java1908_fams_g3)
+2020-03-26 09:04:24.020  INFO 612 --- [main] fa.training.Java1908FamsG3Application    : No active profile set, falling back to default profiles: default
+2020-03-26 09:04:24.501  INFO 612 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-26 09:04:24.576  INFO 612 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68ms. Found 11 JPA repository interfaces.
+2020-03-26 09:04:24.959  INFO 612 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-26 09:04:24.966  INFO 612 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-26 09:04:24.966  INFO 612 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 09:04:25.195  INFO 612 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 09:04:25.199  INFO 612 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-26 09:04:25.356  INFO 612 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-26 09:04:25.401  INFO 612 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-26 09:04:25.526  INFO 612 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-26 09:04:25.590  INFO 612 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-26 09:04:25.927  INFO 612 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-26 09:04:25.938  INFO 612 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-03-26 09:04:26.520  INFO 612 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: fa.training.entity.Account (class must be instantiated by Interceptor)
+2020-03-26 09:04:26.544  INFO 612 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: fa.training.entity.Role (class must be instantiated by Interceptor)
+2020-03-26 09:04:27.699  INFO 612 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-26 09:04:27.712  INFO 612 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-26 09:04:27.745  WARN 612 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-26 09:04:28.263  INFO 612 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 0084e9bf-50b0-4e65-986e-9298e78978cf
+
+2020-03-26 09:04:28.324  INFO 612 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@324e8baa, org.springframework.security.web.context.SecurityContextPersistenceFilter@48b3b1b8, org.springframework.security.web.header.HeaderWriterFilter@7fe87c0e, org.springframework.security.web.authentication.logout.LogoutFilter@2da5fdc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@29c244e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5501d1c8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1488a861, org.springframework.security.web.session.SessionManagementFilter@603d25db, org.springframework.security.web.access.ExceptionTranslationFilter@38929da, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@37986daf]
+2020-03-26 09:04:28.458  INFO 612 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-26 09:04:28.460  INFO 612 --- [main] fa.training.Java1908FamsG3Application    : Started Java1908FamsG3Application in 4.705 seconds (JVM running for 5.291)
+2020-03-26 09:09:54.723  INFO 612 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 09:10:03.793  WARN 612 --- [http-nio-8080-exec-8] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2020-03-26 09:10:30.739  INFO 612 --- [http-nio-8080-exec-2] fa.training.utils.Log4J                  : null
+2020-03-26 09:10:36.637  INFO 612 --- [http-nio-8080-exec-3] fa.training.utils.Log4J                  : 3
+2020-03-26 09:10:52.661  INFO 612 --- [http-nio-8080-exec-10] fa.training.utils.Log4J                  : 3
+2020-03-26 09:10:54.287  WARN 612 --- [http-nio-8080-exec-4] o.s.web.servlet.PageNotFound             : No mapping for GET /modal-attendace-status.html
+2020-03-26 09:11:16.963  INFO 612 --- [http-nio-8080-exec-3] fa.training.utils.Log4J                  : 0.76
+2020-03-26 09:11:16.963  INFO 612 --- [http-nio-8080-exec-3] fa.training.utils.Log4J                  : 0.77
+2020-03-26 09:11:16.963  INFO 612 --- [http-nio-8080-exec-3] fa.training.utils.Log4J                  : 0.66
+2020-03-26 09:11:16.964  INFO 612 --- [http-nio-8080-exec-3] fa.training.utils.Log4J                  : GPA [id=0, milestoneName=Thg02-2019, acacdemicMark=0.76, disciplinaryPoint=0.8, bonus=0.2, GPA=1.3599999999999999]
+2020-03-26 09:11:16.964  INFO 612 --- [http-nio-8080-exec-3] fa.training.utils.Log4J                  : GPA [id=0, milestoneName=Thg05-2019, acacdemicMark=0.77, disciplinaryPoint=0.8, bonus=0.2, GPA=1.37]
+2020-03-26 09:11:16.964  INFO 612 --- [http-nio-8080-exec-3] fa.training.utils.Log4J                  : GPA [id=0, milestoneName=Thg04-2019, acacdemicMark=0.66, disciplinaryPoint=0.8, bonus=0.2, GPA=1.26]
+2020-03-26 09:11:16.964  INFO 612 --- [http-nio-8080-exec-3] fa.training.utils.Log4J                  : Allowance [id=0, GPA=1.3599999999999999, level=C, salaryPaid=true, standardAllowance=6000000.0, remarks=null]
+2020-03-26 09:11:16.965  INFO 612 --- [http-nio-8080-exec-3] fa.training.utils.Log4J                  : Allowance [id=0, GPA=1.37, level=C, salaryPaid=true, standardAllowance=6000000.0, remarks=null]
+2020-03-26 09:11:16.965  INFO 612 --- [http-nio-8080-exec-3] fa.training.utils.Log4J                  : Allowance [id=0, GPA=1.26, level=C, salaryPaid=true, standardAllowance=6000000.0, remarks=null]
+2020-03-26 09:21:15.744  INFO 612 --- [RMI TCP Connection(27)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-03-26 09:21:15.802  INFO 612 --- [RMI TCP Connection(27)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-26 09:21:15.923  INFO 612 --- [RMI TCP Connection(28)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-03-26 09:21:16.063  INFO 612 --- [RMI TCP Connection(27)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-26 09:21:16.108  INFO 612 --- [RMI TCP Connection(27)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-03-26 09:30:53.486  INFO 908 --- [main] fa.training.Java1908FamsG3Application    : Starting Java1908FamsG3Application on LAPTOP-GC2CG03A with PID 908 (started by Minh Tuan in D:\Java Fresher\Mock Project\Mock\HN19_FR_JAVA_08_G3\Source\java1908_fams_g3)
+2020-03-26 09:30:53.488  INFO 908 --- [main] fa.training.Java1908FamsG3Application    : No active profile set, falling back to default profiles: default
+2020-03-26 09:30:53.971  INFO 908 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-26 09:30:54.049  INFO 908 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70ms. Found 11 JPA repository interfaces.
+2020-03-26 09:30:54.502  INFO 908 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-26 09:30:54.509  INFO 908 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-26 09:30:54.509  INFO 908 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-26 09:30:54.734  INFO 908 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-03-26 09:30:54.738  INFO 908 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-26 09:30:54.894  INFO 908 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-26 09:30:54.939  INFO 908 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-26 09:30:55.063  INFO 908 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-26 09:30:55.128  INFO 908 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-26 09:30:55.557  INFO 908 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-26 09:30:55.571  INFO 908 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2020-03-26 09:30:56.558  INFO 908 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: fa.training.entity.Account (class must be instantiated by Interceptor)
+2020-03-26 09:30:56.582  INFO 908 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: fa.training.entity.Role (class must be instantiated by Interceptor)
+2020-03-26 09:30:58.830  INFO 908 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-26 09:30:58.859  INFO 908 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-26 09:30:58.908  WARN 908 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-26 09:30:59.947  INFO 908 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 45b1cd91-f8ea-4b2c-bcb6-950eac240e54
+
+2020-03-26 09:31:00.030  INFO 908 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@55c03e4, org.springframework.security.web.context.SecurityContextPersistenceFilter@24fc2c80, org.springframework.security.web.header.HeaderWriterFilter@38fb151a, org.springframework.security.web.authentication.logout.LogoutFilter@2ec5cc14, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7ab1ad9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6cc8da1c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@14df5253, org.springframework.security.web.session.SessionManagementFilter@42f9873e, org.springframework.security.web.access.ExceptionTranslationFilter@1073c664, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@67dc6b48]
+2020-03-26 09:31:00.315  INFO 908 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-26 09:31:00.328  INFO 908 --- [main] fa.training.Java1908FamsG3Application    : Started Java1908FamsG3Application in 7.106 seconds (JVM running for 7.733)
+2020-03-26 09:31:18.233  INFO 908 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-26 09:31:24.964  WARN 908 --- [http-nio-8080-exec-6] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2020-03-26 09:31:54.858  INFO 908 --- [http-nio-8080-exec-9] fa.training.utils.Log4J                  : null
+2020-03-26 09:32:02.476  INFO 908 --- [http-nio-8080-exec-5] fa.training.utils.Log4J                  : 0
+2020-03-26 09:32:09.195  INFO 908 --- [http-nio-8080-exec-10] fa.training.utils.Log4J                  : 0
+2020-03-26 09:32:11.354  WARN 908 --- [http-nio-8080-exec-3] o.s.web.servlet.PageNotFound             : No mapping for GET /modal-attendace-status.html
+2020-03-26 09:32:26.243  INFO 908 --- [http-nio-8080-exec-7] fa.training.utils.Log4J                  : 0.76
+2020-03-26 09:32:26.244  INFO 908 --- [http-nio-8080-exec-7] fa.training.utils.Log4J                  : 0.77
+2020-03-26 09:32:26.244  INFO 908 --- [http-nio-8080-exec-7] fa.training.utils.Log4J                  : 0.66
+2020-03-26 09:32:26.244  INFO 908 --- [http-nio-8080-exec-7] fa.training.utils.Log4J                  : GPA [id=0, milestoneName=Thg02-2019, acacdemicMark=0.76, disciplinaryPoint=0.6, bonus=0.2, GPA=2.7119999999999997]
+2020-03-26 09:32:26.244  INFO 908 --- [http-nio-8080-exec-7] fa.training.utils.Log4J                  : GPA [id=0, milestoneName=Thg05-2019, acacdemicMark=0.77, disciplinaryPoint=0.6, bonus=0.2, GPA=2.719]
+2020-03-26 09:32:26.244  INFO 908 --- [http-nio-8080-exec-7] fa.training.utils.Log4J                  : GPA [id=0, milestoneName=Thg04-2019, acacdemicMark=0.66, disciplinaryPoint=0.6, bonus=0.2, GPA=2.642]
+2020-03-26 09:32:26.245  INFO 908 --- [http-nio-8080-exec-7] fa.training.utils.Log4J                  : Allowance [id=0, GPA=2.7119999999999997, level=C, salaryPaid=true, standardAllowance=3000000.0, remarks=null]
+2020-03-26 09:32:26.245  INFO 908 --- [http-nio-8080-exec-7] fa.training.utils.Log4J                  : Allowance [id=0, GPA=2.719, level=C, salaryPaid=true, standardAllowance=3000000.0, remarks=null]
+2020-03-26 09:32:26.245  INFO 908 --- [http-nio-8080-exec-7] fa.training.utils.Log4J                  : Allowance [id=0, GPA=2.642, level=C, salaryPaid=true, standardAllowance=3000000.0, remarks=null]
+2020-03-26 09:37:02.750  INFO 908 --- [http-nio-8080-exec-7] fa.training.utils.Log4J                  : null
+2020-03-26 09:37:06.169  INFO 908 --- [http-nio-8080-exec-4] fa.training.utils.Log4J                  : 3
+2020-03-26 11:14:17.533  WARN 908 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m40s960ms888µs500ns).
+2020-03-26 11:14:59.262  WARN 908 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=52s315ms627µs600ns).
+2020-03-26 16:04:34.853  INFO 908 --- [RMI TCP Connection(390)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-03-26 16:04:34.853  INFO 908 --- [RMI TCP Connection(389)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-03-26 16:04:41.188  INFO 908 --- [RMI TCP Connection(389)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-26 16:04:43.646  INFO 908 --- [RMI TCP Connection(389)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-26 16:04:44.227  INFO 908 --- [RMI TCP Connection(389)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

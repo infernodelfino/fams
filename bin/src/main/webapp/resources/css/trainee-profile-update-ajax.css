@@ -1,0 +1,53 @@
+.error {
+	color: red;
+}
+
+#side-bar {
+	height: 89vh;
+}
+
+.traineeAttribute {
+	background-color: rgb(243, 243, 243);
+}
+
+.traineeValue {
+	background-color: rgb(250, 250, 250);
+	;
+}
+
+.traineePadding {
+	padding: 0 !important;
+}
+
+.td-input {
+	height: 50px;
+}
+
+.btn-customized {
+	border: 1px solid black;
+}
+
+.selectBox {
+	position: relative;
+}
+
+.universitySelect, .facultySelect {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+#universityCheckboxes, #facultyCheckboxes {
+	display: none;
+	border: 1px #dadada solid;
+}
+
+#universityCheckboxes label, #facultyCheckboxes label {
+	display: block;
+}
+
+#universityCheckboxes label:hover, #facultyCheckboxes label:hover {
+	background-color: #1e90ff;
+}
